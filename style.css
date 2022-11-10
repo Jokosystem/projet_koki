@@ -1,0 +1,130 @@
+/*logo*/
+#logo {
+    display: flex;
+    height: 250px;
+    width: 250px;
+}
+
+@media screen and (max-width: 768px){
+}
+
+
+/*barre de navigation*/
+#navcategory {
+    background-color: rgb(61, 33, 139);
+  
+  }
+  
+  /*reponsive nav*/
+  
+  @media screen and (max-width: 768px) {
+    #navu {
+      display: none;
+    }
+  }
+
+  /* animation nav*/
+div.at-container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .at-item6 {
+    animation-name: tilt-in-right-1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    /* shorthand 
+      animation: tilt-in-right-1 1s ease 0s 1 normal forwards;
+      */
+  }
+  
+  @keyframes tilt-in-right-1 {
+    0% {
+      transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
+
+  /*carousels*/
+#carou {
+    margin-bottom: 70px;
+    box-shadow: grey 6px 6px 6px 0px;
+  }
+
+  /*======================================================================*/
+/*footer*/
+#footer1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 33, 139);
+    width: 100%;
+    height: 200px;
+    left: auto;
+    right: auto;
+    top: 800px;
+    opacity: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+  
+  }
+  
+  #logos {
+    display: flex;
+    width: 100%;
+    height: 37px;
+    left: auto;
+    right: auto;
+    opacity: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+  
+  }
+  
+  #footer2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 33, 139);
+    width: 100%;
+    height: auto;
+    left: auto;
+    right: auto;
+    /* top: 800px; */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  /*responsive footer*/
+  @media screen and (max-width: 768px) {
+    #footer1 {
+      display: none;
+    }
+  
+    #logos {
+      display: blockquote;
+    }
+  
+    #footer2 {
+      display: block;
+      text-align: center!important;
+      margin-top: 50px;
+    }
+  }
+
+/*===============================================================================*/
+  /*image de card besoins*/
+#imgcard {
+    height: 172.8px;
+  }
