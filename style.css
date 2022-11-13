@@ -1,3 +1,8 @@
+/*animation backgroundd*/
+body {
+  background-image: url(./images/anim.gif);
+}
+
 /*logo*/
 #logo {
     display: flex;

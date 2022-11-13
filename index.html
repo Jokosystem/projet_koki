@@ -17,7 +17,7 @@
 </head>
 
 <body class="bg-slate-50">
-    <nav id="nav" class="shadow-md py-3 bg-white -mb-10 -mt-10">
+    <nav id="nav" class="shadow-md py-3 bg-slate-50 -mb-10 -mt-10 -ml-20 -mr-15">
         <div class="container mx-auto flex justify-between items-center">
 
             <div id="logo" class="">
@@ -32,26 +32,26 @@
                     <div class='at-container6'>
                         <!-- animation slide -->
                         <h1 class='at-item6'>
-                            <a class="text-2xl text-blueviolet-500 hover:text-blueviolet-700" href="login.php">
+                            <a class="text-2xl text-violet-700 hover:text-violet-800" href="login.php">
                                 <i class="fa-solid fa-arrow-right-to-bracket mr-2"></i> Se connecter
                             </a>
                         </h1>
                     </div>
                 </li>
-                <li>
-                    <div class='at-container6'>
-                        <!-- animation slide -->
-                        <h1 class='at-item6'>
-                            <a class="text-2xl text-blueviolet-500 hover:text-blueviolet-700 mr-10" href="register.php">
-                                <i class="fa-solid fa-inbox mr-2"></i> S'enregistrer
-                            </a>
-                        </h1>
-                    </div>
+
+                <div class='at-container6'>
+                    <!-- animation slide -->
+                    <h1 class='at-item6'>
+                        <a class="text-2xl text-violet-700 hover:text-violet-800 mr-10" href="register.php">
+                            <i class="fa-solid fa-inbox mr-2"></i> S'enregistrer
+                        </a>
+                    </h1>
+                </div>
                 </li>
             </ul>
         </div>
     </nav>
-    <nav id="navcategory" class="py-3 mb-20">
+    <nav id="navcategory" class="py-4 mb-20">
         <div class="container mx-auto center-block">
             <ul class="list-none flex gap-6 justify-between items-center">
                 <li>
@@ -64,14 +64,14 @@
                 <li>
                     <div class="text-white text-2xl mr-5 ml-5">
                         <a class="text-decoration-none hover:text-pink-700" href="index.php">
-                            Nos Produits
+                            Mes Produits
                         </a>
                     </div>
                 </li>
                 <li>
                     <div class="text-white text-2xl mr-10">
                         <a class="text-decoration-none hover:text-pink-700" href="blog.php">
-                            Le Blog
+                            Mon Blog
                         </a>
                     </div>
                 </li>
@@ -79,7 +79,7 @@
         </div>
     </nav>
     <marquee behavior="alternate">
-        <h2 class="text-3xl text-blueviolet-500 hover:text-blueviolet-700 mb-10">Le site pensé pour les amateurs de
+        <h2 class="text-3xl text-violet-600 hover:text-violet-700 mb-10">Le site pensé pour les Amateurs de
             Crochet...
         </h2>
     </marquee>
@@ -143,24 +143,75 @@
         </div>
     </div>
 
-    <h1 class="text-center text-4xl text-blueviolet-500 mb-20">Nos Produits</h1>
+    <h1 class="text-center text-4xl text-violet-700 mb-20">Nos Produits</h1>
     <hr>
     <br />
 
     <div class="bg-white flex justify-between items-center shadow-sm mb-3 p-6">
-        <img id="imgcard" class="w-36" src="" alt="">
+        <img id="imgcard" class="w-45" src="./images/Les_Crochets_de_Kiki.png" alt="image_cours_crochet">
         <div class="w-1/3">
-            <h2 class="text-4xl font-bold uppercase"></h2>
-            <h3 class="text-4xl font-bold text-orange-500"></h3>
-            <h4 class="text-4xl font-light text-blueviolet-500"> €</h4>
+            <h2 class="text-4xl font-bold text-blue-800 uppercase">Cours de Crochet avec Kiki</h2>
+            <h3 class="text-4xl font-bold text-green-500">Niveau débutant</h3>
+            <h4 class="text-4xl font-light text-violet-500">19,99 €</h4>
         </div>
         <div>
-            <a href="" class="py-2 px-4 rounded bg-blueviolet-500 hover:bg-blueviolet-700 text-white">
+            <a href="./details.html" class="py-2 px-4 rounded bg-blue-500 hover:bg-blue-800 text-white">
                 <i class="fa-solid fa-eye mr-2"></i>Voir plus
             </a>
         </div>
     </div>
-
+    <div class="bg-white flex justify-between items-center shadow-sm mb-3 p-6">
+        <img id="imgcard" class="w-45" src="./images/Les_Crochets_de_Kiki.png" alt="image_cours_crochet">
+        <div class="w-1/3">
+            <h2 class="text-4xl font-bold text-blue-800 uppercase">Cours de Crochet avec Kiki</h2>
+            <h3 class="text-4xl font-bold text-orange-500">Niveau intermédiaire</h3>
+            <h4 class="text-4xl font-light text-violet-500">19,99 €</h4>
+        </div>
+        <div>
+            <a href="./details.html" class="py-2 px-4 rounded bg-blue-500 hover:bg-blue-800 text-white">
+                <i class="fa-solid fa-eye mr-2"></i>Voir plus
+            </a>
+        </div>
+    </div>
+    <div class="bg-white flex justify-between items-center shadow-sm mb-3 p-6">
+        <img id="imgcard" class="w-45" src="./images/Les_Crochets_de_Kiki.png" alt="image_cours_crochet">
+        <div class="w-1/3">
+            <h2 class="text-4xl font-bold text-blue-800 uppercase">Cours de Crochet avec Kiki</h2>
+            <h3 class="text-4xl font-bold text-red-500">Niveau avancé</h3>
+            <h4 class="text-4xl font-light text-violet-500">19,99 €</h4>
+        </div>
+        <div>
+            <a href="./details.html" class="py-2 px-4 rounded bg-blue-500 hover:bg-blue-800 text-white">
+                <i class="fa-solid fa-eye mr-2"></i>Voir plus
+            </a>
+        </div>
+    </div>
+    <div class="bg-white flex justify-between items-center shadow-sm mb-3 p-6">
+        <img id="imgcard" class="w-45" src="./images/Les_Crochets_de_Kiki.png" alt="image_cours_crochet">
+        <div class="w-1/3">
+            <h2 class="text-4xl font-bold text-blue-800 uppercase">Kit de Crochet de Kiki</h2>
+            <h3 class="text-4xl font-bold text-green-500">Niveau débutant</h3>
+            <h4 class="text-4xl font-light text-violet-500">12,99 €</h4>
+        </div>
+        <div>
+            <a href="./details.html" class="py-2 px-4 rounded bg-blue-500 hover:bg-blue-800 text-white">
+                <i class="fa-solid fa-eye mr-2"></i>Voir plus
+            </a>
+        </div>
+    </div>
+    <div class="bg-white flex justify-between items-center shadow-sm mb-3 p-6">
+        <img id="imgcard" class="w-45" src="./images/Les_Crochets_de_Kiki.png" alt="image_cours_crochet">
+        <div class="w-1/3">
+            <h2 class="text-4xl font-bold text-blue-800 uppercase">Assortiment de Coton</h2>
+            <h3 class="text-4xl font-bold text-green-500">Niveau débutant</h3>
+            <h4 class="text-4xl font-light text-violet-500">23,99 €</h4>
+        </div>
+        <div>
+            <a href="./details.html" class="py-2 px-4 rounded bg-blue-500 hover:bg-blue-800 text-white">
+                <i class="fa-solid fa-eye mr-2"></i>Voir plus
+            </a>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
